@@ -21,22 +21,15 @@ import image from "../images/motion-background.jpg";
 const imageAltText = "purple and blue abstract background";
 
 /**
- * Sort description that expands on your title on the Home component.
- */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
-
+ * Sort description that expands on your title on the Home component
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Machine Learning",
+  "Multi-agent System",
+  "Decision-making Algorithm",
 ];
 
 /**
@@ -44,9 +37,6 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
 const About = () => {
   return (
     <section className="padding" id="about">
@@ -61,14 +51,35 @@ const About = () => {
         }}
       >
         <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <p>
+          {"I'm Qihang Cai, and I've earned "}
+          {"Master's degrees"}
+          {" in "}
+          <em>{"Computer Science"} </em>
+          <strong>(Top 5%)</strong>
+          <em> from the </em>
+          <em><i><u>University of Wollongong, Australia</u></i></em>
+          {", and "}
+          <em><i><u>Central China Normal University, China</u></i></em>
+          {"."}
+          {" I received my "}
+          undergraduate degree
+          {" "}
+          <strong>(Top 15%)</strong>
+          {" in "}
+          <em><i>computer science</i></em>
+          {" from "}
+          <em><i><u>{"Chang'an University, China"}</u></i></em>
+          {"."}
+        </p>
         <hr />
+        <p className="large"><strong>Current Research Focus</strong></p>
         <ul
           style={{
             textAlign: "left",
             columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
+            fontSize: "1rem",
+            margin: "4rem 4rem",
             gap: "3rem",
           }}
         >
@@ -77,7 +88,11 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p>
+          {"Well, folks, since July 2023, I've been on the quest for a kind-hearted soul willing to take on the noble role of being my PhD supervisor. It's been a rollercoaster ride so far. 🌟🎢 So, if you're out there, dear mentor, be ready to embark on this wild academic adventure with me. Let's make some scholarly magic happen! ✨🎓😄"}
+        </p>
+
+
       </div>
     </section>
   );
