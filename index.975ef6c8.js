@@ -27225,8 +27225,11 @@ const imageAltText = "purple and blue abstract background";
                             "Master's degrees",
                             " in ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
-                                children: '"Computer Science '
-                            }, void 0, false, {
+                                children: [
+                                    "Computer Science",
+                                    " "
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
                                 lineNumber: 58,
                                 columnNumber: 11
@@ -28870,11 +28873,11 @@ const imageAltText = "desktop with books and laptop";
  */ const projectList = [
     {
         title: "Publications",
-        url: "../Publication.html"
+        url: "./Publication.html"
     },
     {
         title: "Research Projects",
-        url: "../Research Project.html"
+        url: "../Research_Project.html"
     },
     {
         title: "Awards and Honors",
